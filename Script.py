@@ -115,7 +115,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>{file_name}\n\n⚡️Join ➥「 @MSLANDERS 」</b>"""
+    FILE_CAPTION = """<b>{file_name}\n\n<blockquote>⚡️Join ➥「 @MSLANDERS 」</blockquote></b>"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
@@ -343,7 +343,7 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀ�
 
     SOURCE_TXT = """<b>
 NOTE:
-- ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<blockquote><a href="https://t.me/MSLandersTalk_bot">CONTACT OWNER</a></blockquote>
+- ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<blockquote><a href="https://t.me/MSLandersTalk_bot">ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ</a></blockquote>
 
 developer : ᗩᗰᗩᑎI
 </b>""" 
