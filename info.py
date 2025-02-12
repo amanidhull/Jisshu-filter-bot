@@ -69,7 +69,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://i.imghippo.com/files/owV4017EyE.jpg https://i.imghippo.com/files/Za9961wr.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://i.imghippo.com/files/owV4017EyE.jpg https://i.imghippo.com/files/Za9961wr.jpg https://i.imghippo.com/files/Qga1764Ow.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://i.imghippo.com/files/Qga1764Ow.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://i.imghippo.com/files/owV4017EyE.jpg')).split()
@@ -144,7 +144,7 @@ admin_cmds = [
     "/delreq", "/channel", "/del_file", "/delete",
     "/deletefiles", "/deleteall", 
     "All These Commands Can Be Used Only By Admins.", 
-    "⚡ powered by @JISSHU_BOTS"
+    "⚡ powered by @MSLANDERS"
 ]
 
 cmds = [
