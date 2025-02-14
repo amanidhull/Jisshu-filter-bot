@@ -115,7 +115,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<blockquote><b><a href="https://t.me/msrequest_group">{file_caption}</a></blockquote></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/mslanders>[𝗠𝗦𝗟𝗔𝗡𝗗𝗘𝗥𝗦]</a></b>"""
+    FILE_CAPTION = """<b>{file_name}\n\n⚡️Join ➥「<a href="https://t.me/mslanders">MSLANDERS</a>」</b>"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
