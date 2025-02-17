@@ -38,7 +38,7 @@ auth_channel = environ.get('AUTH_CHANNEL', '-1002178835257')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002219563250'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002219563250') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002301268603')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/msrequest_group') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Ms_Support_Group') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', False)
