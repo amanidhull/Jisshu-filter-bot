@@ -38,7 +38,7 @@ auth_channel = environ.get('AUTH_CHANNEL', '-1002178835257')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002219563250'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002219563250') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002301268603')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Ms_Support_Group') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/MSLANDERS_HELP') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', False)
@@ -72,8 +72,8 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 START_IMG = (environ.get('START_IMG', 'https://i.imghippo.com/files/owV4017EyE.jpg https://i.imghippo.com/files/Za9961wr.jpg https://i.imghippo.com/files/Qga1764Ow.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://i.imghippo.com/files/Qga1764Ow.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://i.imghippo.com/files/owV4017EyE.jpg')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://i.imghippo.com/files/Qga1764Ow.jpg'))
+PAYPICS = (environ.get('PAYPICS', 'https://i.ibb.co/TM82ymJ4/x.jpg')).split()
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://i.ibb.co/Q3432GQX/x.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
