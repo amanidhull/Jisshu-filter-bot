@@ -354,7 +354,7 @@ async def start(client:Client, message):
                 file_caption=file.caption
             )
             btn = [[
-                InlineKeyboardButton("✛ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ ✛", callback_data=f'stream#{file.file_id}')
+                InlineKeyboardButton("🖥 Wᴀᴛᴄʜ & Dᴏᴡɴʟᴏᴀᴅ 🚀", url="https://t.me/FilesToLinkPro_bot")
             ]]
             toDel = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -394,7 +394,7 @@ async def start(client:Client, message):
         file_caption=files.caption
     )
     btn = [[
-        InlineKeyboardButton("✛ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ ✛", callback_data=f'stream#{file_id}')
+        InlineKeyboardButton("🖥 Wᴀᴛᴄʜ & Dᴏᴡɴʟᴏᴀᴅ 🚀", url="https://t.me/FilesToLinkPro_bot")
     ]]
     toDel=await client.send_cached_media(
         chat_id=message.from_user.id,
